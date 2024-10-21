@@ -192,54 +192,93 @@ span{
   display: flex;
 }
 
-.header-summary {
-    list-style: none;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    padding-right: 20px;
-    border-bottom: 3px solid red ;
+.button{
+display: flex;
+justify-content: center;
+}
+.full-menu-button {
+padding: 10px 30px;
+border: 1px solid gray;
+border-radius: 5px;
+text-align: center;
+margin-top: 20px;
+cursor: pointer;
+background-color: #fff;
+display: block;
 }
 
-.header-summary::after {
-    content: '▾'; 
-    font-size: 12px;
-    margin-left: 8px;
-    display: inline-block;
-    transform: rotate(0deg);
-    transition: transform 0.3s ease;
+
+.full-menu-button:hover {
+box-shadow: 0px 3px 3px gray;
+}
+
+.second_row, .first_row, .third_row, .fourth_row{
+display: flex;
+justify-content: center;
+}
+.fourth_row {
+
+align-items: center;
+width:100%;
 }
 
 details[open] .header-summary::after {
-    transform: rotate(180deg); 
+transform: rotate(270deg) scaleX(1.3);
+
+
 }
 
 .menu-content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-top: 10px;
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #e0e0e0;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 10px;
+background-color: #fff;
+padding: 15px;
+border: 1px solid #e0e0e0;
+max-width: 400px;
+margin: 0 auto;
 }
 
+
 .menu-item {
-    text-align: center;
+text-align: center;
+width: 20%;
+max-width: 100px;
 }
 
 .menu-item img {
-    width: 80px;
-    height: auto;
+width: 80px;
+height: auto;
 }
 
 .menu-item span {
-    display: block;
-    margin-top: 5px;
-    font-size: 14px;
+display: block;
+margin-top: 5px;
+font-size: 14px;
+}
+
+
+.header-summary {
+list-style: none;
+cursor: pointer;
+display: inline-block;
+position: relative;
+font-size: 18px;
+border: none;
+padding-right: 20px;
+border-bottom: 3px solid red;
+}
+
+
+.header-summary::after {
+content: 'ᐳ'; 
+font-size: 12px;
+margin-left: 8px;
+display: inline-block;
+transform: rotate(90deg) scaleX(1.3);
+transition: transform 0.3s ease;
+
 }
 
 .main-div-end1{
@@ -264,8 +303,9 @@ main span{
   width: 330px;
 }
 
-.main-end{
-  
+.div-end2{
+  display: flex;
+  margin-right: 370px;
 }
 
 main{
@@ -280,5 +320,8 @@ main{
 
 .many-and-end{
   display: flex;
-  justify-content: center;
+}
+
+.div-end3{
+  display: flex;
 }
