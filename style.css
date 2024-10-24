@@ -7,10 +7,6 @@
   width: 20px;
 }
 
-main{
-  margin-left: 0 50%;
-}
-
 .r{
   display: flex;
   flex-direction: column;
