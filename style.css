@@ -7,8 +7,8 @@
   width: 20px;
 }
 
-.main-meny-and-end{
-  display; flex;
+main{
+  display: flex;
   justify-content: center;
 }
 
