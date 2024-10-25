@@ -1,3 +1,4 @@
+
 .qqq{
   display: flex;
   justify-content: space-evenly;
@@ -85,13 +86,6 @@ nav a, details {
   margin: 10px;
   font-family: sans-serif;
 }
-
-.header-summary{
-  font-weight: 700 ;
-
-}
-
-
 
 .mcdonald {
   width: 80px;
@@ -270,6 +264,7 @@ border-bottom: 3px solid red;
 }
 
 
+
 .header-summary::after {
 content: 'ᐳ'; 
 font-size: 12px;
@@ -288,6 +283,11 @@ transition: transform 0.3s ease;
 .main-div-many{
   margin-bottom: 30px;
   border: 1px solid black;
+  width: 330px;
+}
+
+.main-div-many1{
+  margin-bottom: 30px;
   border-left:3px solid red ;
   width: 330px;
 }
@@ -302,11 +302,6 @@ main span{
   width: 330px;
 }
 
-.div-end2{
-  display: flex;
-  margin-right: 370px;
-}
-
 main{
   margin-bottom: 100px;
 }
@@ -319,8 +314,54 @@ main{
 
 .many-and-end{
   display: flex;
+  justify-content: center;
 }
 
-.div-end3{
+.div-end2{
   display: flex;
+}
+
+.main-p{
+  text-align: center;
+  width: 100px;
+}
+
+.main-div-end a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.button{
+display: flex;
+justify-content: center;
+}
+.full-menu-button {
+padding: 10px 30px;
+border: 1px solid gray;
+border-radius: 5px;
+text-align: center;
+margin-top: 20px;
+cursor: pointer;
+background-color: #fff;
+display: block;
+}
+
+
+
+
+.full-menu-button:hover {
+box-shadow: 0px 3px 3px gray;
+}
+
+
+.second_row, .first_row, .third_row, .fourth_row{
+display: flex;
+justify-content: center;
+}
+.fourth_row {
+
+
+align-items: center;
+width:100%;
 }
