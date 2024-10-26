@@ -336,14 +336,14 @@ transition: transform 0.3s ease;
 
 
 .main-div-many{
-  margin-bottom: 30px;
+  margin-bottom: ;
   border: 1px solid black;
   width: 330px;
 }
 
 
 .main-div-many1{
-  margin-bottom: ;
+  margin-bottom: 30px;
   border-left:3px solid red ;
   width: 330px;
 }
